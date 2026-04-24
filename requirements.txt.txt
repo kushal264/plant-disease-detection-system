@@ -1,0 +1,34 @@
+# ── Core API ─────────────────────────────
+
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# ── Deep Learning ────────────────────────
+
+tensorflow==2.15.0
+keras==2.15.0
+
+# ── Data Processing ──────────────────────
+
+numpy==1.26.4
+pandas==2.2.2
+
+# ── Image Processing ─────────────────────
+
+pillow==10.3.0
+opencv-python-headless==4.9.0.80
+
+# ── Machine Learning Utilities ───────────
+
+scikit-learn==1.4.2
+
+# ── Visualization (used in notebooks) ───
+
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# ── Misc (often required internally) ────
+
+h5py==3.10.0
+tqdm==4.66.4
